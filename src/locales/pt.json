@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "gallery": "Galeria",
+    "reviews": "Avaliações",
+    "contact": "Contato",
+    "cta": "Solicitar Orçamento"
+  },
+  "hero": {
+    "badge": "Richmond, VA · Licenciado e Segurado",
+    "headline": {
+      "line1": "Construído Com",
+      "line2": "Propósito.",
+      "line3": "Finalizado Com",
+      "line4": "Orgulho."
+    },
+    "subline": "Do Alicerce ao Acabamento",
+    "desc": "A Jacko LLC oferece reformas residenciais premium, marcenaria personalizada e reformas completas de casas em Richmond, Virginia, dentro do orçamento, no prazo, sempre.",
+    "cta": "Solicitar Orçamento Grátis",
+    "ctaSecondary": "Ver Nosso Trabalho",
+    "stats": {
+      "flips": "Reformas Concluídas",
+      "budget": "No Orçamento",
+      "rating": "Avaliação dos Clientes"
+    },
+    "location": "Atendemos Richmond, VA",
+    "locationSub": "Richmond, VA 23229",
+    "phoneSub": "Orçamentos gratuitos disponíveis",
+    "logoText": "LOGO AQUI",
+    "logoSub": "Substitua pela logo da empresa"
+  },
+  "trust": {
+    "licensed": "Licenciado e Segurado",
+    "flips": "10+ Reformas Concluídas",
+    "onTime": "No Prazo. No Orçamento.",
+    "stars": "Serviço 5 Estrelas",
+    "local": "Equipe Local em Richmond, VA"
+  },
+  "services": {
+    "label": "O Que Fazemos",
+    "title1": "Artesanato em Cada",
+    "title2": "Canto da Sua Casa",
+    "subtitle": "De reformas completas à marcenaria de precisão, damos vida à sua visão com habilidade e integridade.",
+    "items": [
+      {
+        "name": "Reforma de Cozinhas",
+        "desc": "Transforme sua cozinha no coração da sua casa. De redesigns de layout a ilhas personalizadas, cuidamos de cada detalhe, armários, bancadas, iluminação e acabamentos.",
+        "tags": ["Armários Sob Medida", "Bancadas", "Reforma Completa"]
+      },
+      {
+        "name": "Reforma de Banheiros",
+        "desc": "Luxuoso ou funcional, construímos banheiros que impressionam. Azulejos, pias, chuveiros walk-in, banheiras e atualizações completas de encanamento.",
+        "tags": ["Azulejo & Pedra", "Pias Sob Medida", "Upgrades Spa"]
+      },
+      {
+        "name": "Reforma Completa de Casas",
+        "desc": "Com mais de 10 reformas completas no mercado de Richmond, sabemos o que os compradores querem. Gerenciamos toda a renovação, estrutura, sistemas e acabamentos, para o máximo retorno.",
+        "tags": ["Foco no ROI", "Gerenciamento Completo", "Entrega Rápida"]
+      },
+      {
+        "name": "Marcenaria Personalizada",
+        "desc": "Marcenaria de precisão, construída sob medida para suas especificações. Embutidos, hall de entrada, home offices, closets, cada peça feita para o seu espaço e estilo.",
+        "tags": ["Sob Encomenda", "Madeira Maciça", "Acabamento Personalizado"]
+      }
+    ]
+  },
+  "why": {
+    "label": "Por Que a Jacko LLC",
+    "title": "Nosso Compromisso Com Você",
+    "subtitle": "Três promessas que fazemos, e cumprimos, em todos os projetos.",
+    "items": [
+      {
+        "title": "No Orçamento",
+        "desc": "Fornecemos orçamentos detalhados e transparentes, sem taxas ocultas, sem surpresas. Seu orçamento é respeitado desde a primeira reunião até a entrega final."
+      },
+      {
+        "title": "No Prazo",
+        "desc": "Prazos não são sugestões, são compromissos. Com gerenciamento disciplinado e subcontratados confiáveis, entregamos sua reforma dentro do cronograma."
+      },
+      {
+        "title": "Artesanato Especializado",
+        "desc": "Cada corte, cada junta, cada acabamento é feito com precisão e cuidado. Nos orgulhamos dos detalhes que a maioria dos contratados ignora, porque qualidade é a nossa assinatura."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Nosso Trabalho",
+    "title1": "Projetos dos Quais",
+    "title2": "Temos Orgulho",
+    "subtitle": "Cada espaço conta uma história. Aqui estão algumas das nossas.",
+    "viewProject": "Ver Projeto",
+    "photoLabel": "Foto do Projeto"
+  },
+  "testimonials": {
+    "label": "Avaliações de Clientes",
+    "title1": "O Que os Moradores de",
+    "title2": "Richmond Estão Dizendo",
+    "items": [
+      {
+        "text": "A Jacko LLC transformou completamente nossa cozinha desatualizada em algo saído de uma revista. Os armários personalizados são absolutamente impressionantes, e eles terminaram dois dias antes do prazo. Já os indiquei para três vizinhos.",
+        "name": "Margaret H.",
+        "location": "Henrico County, VA"
+      },
+      {
+        "text": "Como investidor, já trabalhei com muitos empreiteiros. A Jacko LLC se destaca porque realmente cumpre orçamento e prazo. Nossa última reforma ficou abaixo do orçamento e vendeu acima do preço pedido. Agora são nossa equipe preferida.",
+        "name": "David L.",
+        "location": "Richmond, VA, Investidor Imobiliário"
+      },
+      {
+        "text": "A reforma do banheiro que a Jacko fez para nós superou todas as expectativas. O trabalho com azulejos é impecável, a pia que construíram é única, e mantiveram a casa habitável durante todo o processo. Não poderíamos pedir mais.",
+        "name": "Sandra R.",
+        "location": "Short Pump, VA"
+      }
+    ]
+  },
+  "cta": {
+    "label": "Vamos Construir Juntos",
+    "title1": "Pronto Para Começar",
+    "title2": "Seu",
+    "titleHighlight": "Projeto?",
+    "desc": "Seja uma renovação de cozinha, uma reforma completa ou um flip lucrativo, a Jacko LLC está pronta para dar vida à sua visão. Entre em contato para um orçamento gratuito e sem compromisso.",
+    "callBtn": "Ligar Agora: (804) 546-6990",
+    "emailBtn": "Enviar E-mail"
+  },
+  "footer": {
+    "slogan": "Do Alicerce ao Acabamento",
+    "desc": "Reformas residenciais premium, marcenaria personalizada e reformas de casas atendendo Richmond, Virginia e região. Construído na confiança. Finalizado com orgulho.",
+    "servicesHeading": "Serviços",
+    "contactHeading": "Contato",
+    "servicesList": ["Reforma de Cozinhas", "Reforma de Banheiros", "Reforma Completa de Casas", "Marcenaria Personalizada"],
+    "freeEstimates": "Orçamentos gratuitos disponíveis",
+    "copyright": "Jacko LLC, Marcenaria e Reformas. Todos os direitos reservados. · Richmond, VA"
+  }
+}

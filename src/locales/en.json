@@ -1,0 +1,134 @@
+{
+  "nav": {
+    "services": "Services",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "cta": "Get Free Estimate"
+  },
+  "hero": {
+    "badge": "Richmond, VA · Licensed & Insured",
+    "headline": {
+      "line1": "Built With",
+      "line2": "Purpose.",
+      "line3": "Finished With",
+      "line4": "Pride."
+    },
+    "subline": "From Foundation to Finish",
+    "desc": "Jacko LLC delivers premium home renovations, custom cabinetry, and full house flips across Richmond, Virginia, on budget, on time, every time.",
+    "cta": "Get a Free Estimate",
+    "ctaSecondary": "View Our Work",
+    "stats": {
+      "flips": "Flips Completed",
+      "budget": "On Budget",
+      "rating": "Client Rating"
+    },
+    "location": "Serving Richmond, VA",
+    "locationSub": "Richmond, VA 23229",
+    "phoneSub": "Free estimates available",
+    "logoText": "YOUR LOGO",
+    "logoSub": "Replace with company logo"
+  },
+  "trust": {
+    "licensed": "Licensed & Insured",
+    "flips": "10+ Flips Completed",
+    "onTime": "On Budget. On Time.",
+    "stars": "5-Star Service",
+    "local": "Richmond, VA Local Team"
+  },
+  "services": {
+    "label": "What We Do",
+    "title1": "Craftsmanship Across",
+    "title2": "Every Corner of Your Home",
+    "subtitle": "From full-scale renovations to precision cabinetry, we bring your vision to life with skill and integrity.",
+    "items": [
+      {
+        "name": "Kitchen Remodels",
+        "desc": "Transform your kitchen into the heart of your home. From layout redesigns to custom island builds, we handle every detail, cabinetry, countertops, lighting, and finishes.",
+        "tags": ["Custom Cabinets", "Countertops", "Full Gut & Rebuild"]
+      },
+      {
+        "name": "Bathroom Renovations",
+        "desc": "Luxurious or functional, we build bathrooms that perform beautifully. Tile work, vanities, walk-in showers, soaking tubs, and complete plumbing updates.",
+        "tags": ["Tile & Stone", "Custom Vanities", "Spa Upgrades"]
+      },
+      {
+        "name": "Full Home Flips",
+        "desc": "With 10+ successful flips completed in the Richmond market, we know what buyers want. We manage the entire renovation, structure, systems, and cosmetics, for maximum ROI.",
+        "tags": ["ROI-Focused", "Full Management", "Quick Turnaround"]
+      },
+      {
+        "name": "Custom Cabinetry",
+        "desc": "Precision-built, bespoke cabinetry crafted to your exact specifications. Built-ins, mudrooms, home offices, closets, every piece made to fit your space and style.",
+        "tags": ["Built-to-Order", "Solid Wood", "Custom Finish"]
+      }
+    ]
+  },
+  "why": {
+    "label": "Why Jacko LLC",
+    "title": "Our Commitment to You",
+    "subtitle": "Three promises we make, and keep, on every single project.",
+    "items": [
+      {
+        "title": "On Budget",
+        "desc": "We provide detailed, transparent quotes upfront, no hidden fees, no surprise change orders. Your budget is respected from the first meeting to final walkthrough."
+      },
+      {
+        "title": "On Time",
+        "desc": "Deadlines aren't suggestions, they're commitments. With disciplined project management and reliable subcontractors, we deliver your renovation on schedule."
+      },
+      {
+        "title": "Expert Craftsmanship",
+        "desc": "Every cut, every joint, every finish is done with precision and care. We take pride in the details that most contractors overlook, because quality is our signature."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Our Work",
+    "title1": "Projects We're",
+    "title2": "Proud Of",
+    "subtitle": "Every space tells a story. Here are some of ours.",
+    "viewProject": "View Project",
+    "photoLabel": "Project Photo"
+  },
+  "testimonials": {
+    "label": "Client Reviews",
+    "title1": "What Richmond Homeowners",
+    "title2": "Are Saying",
+    "items": [
+      {
+        "text": "Jacko LLC completely transformed our outdated kitchen into something out of a magazine. The custom cabinets are absolutely stunning, and they finished two days ahead of schedule. I've already referred them to three neighbors.",
+        "name": "Margaret H.",
+        "location": "Henrico County, VA"
+      },
+      {
+        "text": "As an investor, I've worked with a lot of contractors. Jacko LLC stands out because they actually stick to the budget and timeline. Our last flip came in under budget and sold above asking price. They're our go-to team now.",
+        "name": "David L.",
+        "location": "Richmond, VA, Real Estate Investor"
+      },
+      {
+        "text": "The bathroom renovation Jacko did for us exceeded every expectation. The tile work is flawless, the vanity they built is one-of-a-kind, and they kept our house livable throughout the process. Couldn't ask for better.",
+        "name": "Sandra R.",
+        "location": "Short Pump, VA"
+      }
+    ]
+  },
+  "cta": {
+    "label": "Let's Build Together",
+    "title1": "Ready to Start",
+    "title2": "Your",
+    "titleHighlight": "Project?",
+    "desc": "Whether it's a kitchen refresh, a full home renovation, or a profitable flip, Jacko LLC is ready to bring your vision to life. Get in touch for a free, no-obligation estimate.",
+    "callBtn": "Call Now: (804) 546-6990",
+    "emailBtn": "Send an Email"
+  },
+  "footer": {
+    "slogan": "From Foundation to Finish",
+    "desc": "Premium home renovations, custom cabinetry, and house flips serving Richmond, Virginia and surrounding areas. Built on trust. Finished with pride.",
+    "servicesHeading": "Services",
+    "contactHeading": "Contact",
+    "servicesList": ["Kitchen Remodels", "Bathroom Renovations", "Full Home Flips", "Custom Cabinetry"],
+    "freeEstimates": "Free estimates available",
+    "copyright": "Jacko LLC, Cabinetry and Renovations. All rights reserved. · Richmond, VA"
+  }
+}
