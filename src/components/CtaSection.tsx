@@ -17,16 +17,81 @@ export default function CtaSection({ cta }: Props) {
           </h2>
           <p className="cta-desc">{cta.desc}</p>
 
-          <div className="cta-buttons">
-            <a href="tel:+18045466990" className="btn-primary">
-              {cta.callBtn} <IconPhone size={16} />
-            </a>
-            <a href="mailto:jacko@jackollc.com" className="btn-outline">
-              {cta.emailBtn}
-            </a>
-          </div>
+          <form
+            action="https://formsubmit.co/jacko@jackollc.com"
+            method="POST"
+            className="estimate-form"
+          >
+            <input type="hidden" name="_subject" value="New Flip Renovation Estimate Request" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_template" value="table" />
+
+            <div className="estimate-form-row">
+              <div className="estimate-form-group">
+                <label className="estimate-form-label">{cta.form.name}</label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder={cta.form.namePlaceholder}
+                  className="estimate-form-input"
+                  required
+                />
+              </div>
+              <div className="estimate-form-group">
+                <label className="estimate-form-label">{cta.form.phone}</label>
+                <input
+                  type="tel"
+                  name="phone"
+                  placeholder={cta.form.phonePlaceholder}
+                  className="estimate-form-input"
+                  required
+                />
+              </div>
+            </div>
+
+            <div className="estimate-form-group">
+              <label className="estimate-form-label">{cta.form.address}</label>
+              <input
+                type="text"
+                name="property_address"
+                placeholder={cta.form.addressPlaceholder}
+                className="estimate-form-input"
+                required
+              />
+            </div>
+
+            <div className="estimate-form-row">
+              <div className="estimate-form-group">
+                <label className="estimate-form-label">{cta.form.stage}</label>
+                <input
+                  type="text"
+                  name="project_stage"
+                  placeholder={cta.form.stagePlaceholder}
+                  className="estimate-form-input"
+                />
+              </div>
+              <div className="estimate-form-group">
+                <label className="estimate-form-label">{cta.form.budget}</label>
+                <input
+                  type="text"
+                  name="budget_range"
+                  placeholder={cta.form.budgetPlaceholder}
+                  className="estimate-form-input"
+                />
+              </div>
+            </div>
+
+            <button type="submit" className="btn-primary estimate-form-submit">
+              {cta.form.submit}
+            </button>
+            <p className="estimate-form-note">{cta.form.note}</p>
+          </form>
 
           <div className="cta-contact-info">
+            <a href="tel:+18045466990" className="cta-contact-item">
+              <span className="cta-contact-icon"><IconPhone /></span>
+              {cta.callBtn}
+            </a>
             <a href="mailto:jacko@jackollc.com" className="cta-contact-item">
               <span className="cta-contact-icon"><IconMail /></span>
               jacko@jackollc.com

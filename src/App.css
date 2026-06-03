@@ -2,10 +2,10 @@
    DESIGN TOKENS
 ============================================================ */
 :root {
-  --bg-primary: #0d0c0a;
-  --bg-surface: #171510;
-  --bg-card: #1e1b14;
-  --bg-card-hover: #252118;
+  --bg-primary: #050403;
+  --bg-surface: #090807;
+  --bg-card: #0e0c09;
+  --bg-card-hover: #131109;
   --accent-gold: #c8921a;
   --accent-warm: #e8a831;
   --text-primary: #f0ebe3;
@@ -25,7 +25,7 @@
 }
 
 .section-label {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 0.85rem;
   letter-spacing: 0.3em;
   color: var(--accent-gold);
@@ -35,7 +35,7 @@
 }
 
 .section-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: clamp(2rem, 4vw, 3rem);
   font-weight: 700;
   color: var(--text-primary);
@@ -44,7 +44,7 @@
 }
 
 .section-subtitle {
-  font-family: 'Lora', serif;
+  font-family: 'Red Hat Text', sans-serif;
   font-size: 1.05rem;
   color: var(--text-secondary);
   max-width: 560px;
@@ -92,7 +92,7 @@
 }
 
 .nav.scrolled {
-  background: rgba(13, 12, 10, 0.95);
+  background: rgba(5, 4, 3, 0.97);
   backdrop-filter: blur(12px);
   padding: 14px 0;
   border-bottom: 1px solid var(--border);
@@ -105,7 +105,7 @@
 }
 
 .nav-logo {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1.5rem;
   letter-spacing: 0.1em;
   color: var(--text-primary);
@@ -125,7 +125,7 @@
 .nav-links a {
   color: var(--text-secondary);
   text-decoration: none;
-  font-family: 'Lora', serif;
+  font-family: 'Red Hat Text', sans-serif;
   font-size: 0.9rem;
   letter-spacing: 0.05em;
   transition: color 0.3s;
@@ -150,7 +150,7 @@
   border-radius: 3px;
   padding: 8px 14px;
   cursor: pointer;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 0.85rem;
   letter-spacing: 0.18em;
   color: var(--text-muted);
@@ -176,7 +176,7 @@
   color: #0d0c0a;
   padding: 10px 22px;
   border-radius: 3px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1rem;
   letter-spacing: 0.12em;
   text-decoration: none;
@@ -207,7 +207,7 @@
   background:
     radial-gradient(ellipse at 70% 50%, rgba(200, 146, 26, 0.08) 0%, transparent 60%),
     radial-gradient(ellipse at 20% 80%, rgba(200, 146, 26, 0.05) 0%, transparent 50%),
-    linear-gradient(180deg, #0d0c0a 0%, #121008 50%, #0d0c0a 100%);
+    linear-gradient(180deg, #050403 0%, #080604 50%, #050403 100%);
 }
 
 .hero-bg::after {
@@ -236,7 +236,7 @@
   background: rgba(200, 146, 26, 0.1);
   border: 1px solid rgba(200, 146, 26, 0.3);
   color: var(--accent-gold);
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.25em;
   padding: 8px 16px;
@@ -254,7 +254,7 @@
 }
 
 .hero-headline {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: clamp(3.5rem, 7vw, 6rem);
   line-height: 0.95;
   letter-spacing: 0.03em;
@@ -268,7 +268,7 @@
 }
 
 .hero-subline {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: clamp(1.1rem, 2vw, 1.4rem);
   color: var(--text-secondary);
   font-style: italic;
@@ -299,7 +299,7 @@
   color: #0d0c0a;
   padding: 16px 32px;
   border-radius: 3px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.15em;
   text-decoration: none;
@@ -329,7 +329,7 @@
   gap: 8px;
   color: var(--text-secondary);
   padding: 16px 0;
-  font-family: 'Lora', serif;
+  font-family: 'Red Hat Text', sans-serif;
   font-size: 0.95rem;
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -350,7 +350,7 @@
 }
 
 .hero-stat-num {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 2.2rem;
   color: var(--accent-gold);
   line-height: 1;
@@ -371,57 +371,11 @@
   align-items: flex-end;
 }
 
-.logo-placeholder {
+.hero-logo {
   width: 100%;
   max-width: 420px;
-  aspect-ratio: 16 / 9;
-  background: var(--bg-card);
-  border: 2px dashed rgba(200, 146, 26, 0.35);
   border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 12px;
-  position: relative;
-  overflow: hidden;
-}
-
-.logo-placeholder::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(200, 146, 26, 0.04) 0%, transparent 60%);
-}
-
-.logo-placeholder-icon {
-  width: 48px;
-  height: 48px;
-  border: 2px solid rgba(200, 146, 26, 0.4);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-}
-
-.logo-placeholder-text {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 1.1rem;
-  letter-spacing: 0.25em;
-  color: var(--accent-gold);
-  opacity: 0.8;
-  position: relative;
-  z-index: 1;
-}
-
-.logo-placeholder-sub {
-  font-size: 0.75rem;
-  color: var(--text-muted);
-  letter-spacing: 0.05em;
-  position: relative;
-  z-index: 1;
+  object-fit: contain;
 }
 
 .hero-card {
@@ -449,7 +403,7 @@
 }
 
 .hero-card-text {
-  font-family: 'Lora', serif;
+  font-family: 'Red Hat Text', sans-serif;
   font-size: 0.9rem;
   color: var(--text-secondary);
 }
@@ -541,7 +495,7 @@
 .service-card:hover::before { height: 100%; }
 
 .service-number {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 4rem;
   color: rgba(200, 146, 26, 0.08);
   position: absolute;
@@ -571,7 +525,7 @@
 .service-card:hover .service-icon { background: rgba(200, 146, 26, 0.18); }
 
 .service-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -592,7 +546,7 @@
 }
 
 .service-tag {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 0.75rem;
   letter-spacing: 0.12em;
   color: var(--accent-gold);
@@ -662,7 +616,7 @@
 }
 
 .why-title {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
   color: var(--text-primary);
@@ -732,7 +686,7 @@
 .gallery-overlay {
   position: absolute;
   inset: 0;
-  background: rgba(13, 12, 10, 0);
+  background: rgba(5, 4, 3, 0);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -740,7 +694,7 @@
 }
 
 .gallery-item:hover .gallery-overlay {
-  background: rgba(13, 12, 10, 0.55);
+  background: rgba(5, 4, 3, 0.65);
 }
 
 .gallery-overlay-content {
@@ -763,7 +717,7 @@
 }
 
 .gallery-placeholder-text {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.2em;
   color: var(--text-muted);
@@ -773,7 +727,7 @@
 }
 
 .gallery-view-text {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 0.9rem;
   letter-spacing: 0.2em;
   color: var(--accent-gold);
@@ -811,7 +765,7 @@
 }
 
 .testimonial-quote-mark {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 4rem;
   color: var(--accent-gold);
   opacity: 0.3;
@@ -851,14 +805,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1.1rem;
   color: var(--accent-gold);
   flex-shrink: 0;
 }
 
 .author-name {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--text-primary);
@@ -896,7 +850,7 @@
 }
 
 .cta-title {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: clamp(2.5rem, 5vw, 4.5rem);
   letter-spacing: 0.05em;
   color: var(--text-primary);
@@ -928,7 +882,7 @@
   border: 1px solid rgba(240, 235, 227, 0.25);
   padding: 16px 32px;
   border-radius: 3px;
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1.1rem;
   letter-spacing: 0.15em;
   text-decoration: none;
@@ -963,10 +917,82 @@
 .cta-contact-icon { color: var(--accent-gold); flex-shrink: 0; }
 
 /* ============================================================
+   ESTIMATE FORM
+============================================================ */
+.estimate-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.estimate-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.estimate-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.estimate-form-label {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.estimate-form-input {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 12px 14px;
+  color: var(--text-primary);
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 0.95rem;
+  transition: border-color 0.3s;
+  outline: none;
+  width: 100%;
+}
+
+.estimate-form-input::placeholder {
+  color: var(--text-muted);
+}
+
+.estimate-form-input:focus {
+  border-color: var(--accent-gold);
+}
+
+.estimate-form-submit {
+  width: 100%;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.estimate-form-note {
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: -8px;
+}
+
+@media (max-width: 480px) {
+  .estimate-form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================
    FOOTER
 ============================================================ */
 .footer {
-  background: #080807;
+  background: #020201;
   border-top: 1px solid var(--border);
   padding: 64px 0 32px;
 }
@@ -979,7 +1005,7 @@
 }
 
 .footer-logo {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 1.8rem;
   letter-spacing: 0.1em;
   color: var(--text-primary);
@@ -989,7 +1015,7 @@
 .footer-logo span { color: var(--accent-gold); }
 
 .footer-slogan {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-style: italic;
   font-size: 0.9rem;
   color: var(--text-muted);
@@ -1004,7 +1030,7 @@
 }
 
 .footer-heading {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
   font-size: 0.9rem;
   letter-spacing: 0.2em;
   color: var(--accent-gold);

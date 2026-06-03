@@ -37,39 +37,27 @@ export default function Hero({ hero }: Props) {
 
             <div className="hero-stats">
               <div className="hero-stat">
-                <div className="hero-stat-num">10+</div>
+                <div className="hero-stat-num">3</div>
                 <div className="hero-stat-label">{hero.stats.flips}</div>
               </div>
               <div className="hero-stat">
-                <div className="hero-stat-num">100%</div>
+                <div className="hero-stat-num">20</div>
                 <div className="hero-stat-label">{hero.stats.budget}</div>
               </div>
               <div className="hero-stat">
-                <div className="hero-stat-num">5★</div>
+                <div className="hero-stat-num">8+</div>
                 <div className="hero-stat-label">{hero.stats.rating}</div>
               </div>
             </div>
           </div>
 
           <div className="hero-visual">
-            {/* ── LOGO PLACEHOLDER — troque pelo <img> da logo real ── */}
-            <div className="logo-placeholder">
-              <div className="logo-placeholder-icon">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="rgba(200,146,26,0.6)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                  <rect x="3" y="3" width="18" height="18" rx="2" />
-                  <circle cx="8.5" cy="8.5" r="1.5" />
-                  <polyline points="21 15 16 10 5 21" />
-                </svg>
-              </div>
-              <div className="logo-placeholder-text">{hero.logoText}</div>
-              <div className="logo-placeholder-sub">{hero.logoSub}</div>
-            </div>
+            <img src="/logo.jpg" alt="Jacko LLC" className="hero-logo" />
 
             <div className="hero-card">
               <div className="hero-card-icon"><IconHome /></div>
               <div className="hero-card-text">
                 <strong>{hero.location}</strong>
-                {hero.locationSub}
               </div>
             </div>
 
