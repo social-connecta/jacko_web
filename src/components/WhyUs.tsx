@@ -29,11 +29,17 @@ export default function WhyUs({ why }: Props) {
 
         <div className="why-grid">
           {why.items.map((item, i) => (
-            <div key={i} className={`why-card reveal reveal-delay-${i + 1}`}>
+            <a
+              key={i}
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`why-card reveal reveal-delay-${i + 1}`}
+            >
               <div className="why-icon">{icons[i]}</div>
               <h3 className="why-title">{item.title}</h3>
               <p className="why-desc">{item.desc}</p>
-            </div>
+            </a>
           ))}
         </div>
       </div>

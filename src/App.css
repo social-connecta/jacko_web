@@ -591,10 +591,17 @@
   padding: 48px 36px;
   background: var(--bg-card);
   text-align: center;
-  transition: background 0.3s;
+  transition: background 0.3s, transform 0.2s;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
 }
 
-.why-card:hover { background: var(--bg-card-hover); }
+.why-card:hover {
+  background: var(--bg-card-hover);
+  transform: translateY(-4px);
+}
 
 .why-icon {
   width: 72px;
@@ -653,34 +660,27 @@
   grid-row: span 2;
 }
 
-.gallery-placeholder {
+.gallery-img-wrap {
   width: 100%;
   aspect-ratio: 4 / 3;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
   position: relative;
   overflow: hidden;
-  transition: border-color 0.3s;
 }
 
-.gallery-item:first-child .gallery-placeholder {
+.gallery-item:first-child .gallery-img-wrap {
   aspect-ratio: 16 / 10;
 }
 
-.gallery-item:hover .gallery-placeholder {
-  border-color: rgba(200, 146, 26, 0.4);
+.gallery-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
 }
 
-.gallery-placeholder::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(135deg, rgba(200, 146, 26, 0.03) 0%, transparent 70%);
+.gallery-item:hover .gallery-img {
+  transform: scale(1.04);
 }
 
 .gallery-overlay {
@@ -694,7 +694,7 @@
 }
 
 .gallery-item:hover .gallery-overlay {
-  background: rgba(5, 4, 3, 0.65);
+  background: rgba(5, 4, 3, 0.55);
 }
 
 .gallery-overlay-content {
@@ -707,23 +707,6 @@
 .gallery-item:hover .gallery-overlay-content {
   opacity: 1;
   transform: translateY(0);
-}
-
-.gallery-placeholder-icon {
-  color: var(--text-muted);
-  opacity: 0.35;
-  position: relative;
-  z-index: 1;
-}
-
-.gallery-placeholder-text {
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 0.8rem;
-  letter-spacing: 0.2em;
-  color: var(--text-muted);
-  opacity: 0.45;
-  position: relative;
-  z-index: 1;
 }
 
 .gallery-view-text {

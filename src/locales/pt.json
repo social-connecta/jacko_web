@@ -15,7 +15,7 @@
       "line4": "Margem."
     },
     "subline": "Uma Equipe. 20 Pessoas. Todos os Serviços. Richmond, VA.",
-    "desc": "Investidores de Richmond: reformamos casas por conta própria. Quando reformamos a sua, protegemos sua margem como se fosse a nossa. Cozinha, banheiros, piso, HVAC, pintura — uma ligação, tudo resolvido.",
+    "desc": "Investidores de Richmond: reformamos casas por conta própria. Quando reformamos a sua, protegemos sua margem como se fosse a nossa. Cozinha, banheiros, piso, pintura. Uma ligação, tudo resolvido.",
     "cta": "Solicitar Orçamento Grátis",
     "ctaSecondary": "Ver Nossos Projetos",
     "stats": {
@@ -71,15 +71,18 @@
     "items": [
       {
         "title": "Williamsburg",
-        "desc": "Compra: $25K · Reforma: $108K · Venda: $221K · 8 meses. Reforma completa — tudo exceto a estrutura. Aparência de construção nova com bônus de localização."
+        "desc": "Compra: $25K · Reforma: $108K · Venda: $221K · 8 meses. Reforma completa — tudo exceto a estrutura. Aparência de construção nova com bônus de localização.",
+        "url": "https://app.companycam.com/galleries/Zs7yyPsU"
       },
       {
         "title": "Norfolk Ave",
-        "desc": "Compra: $62,5K · Reforma: $40K · Venda: $265K · 2,5 meses. Adicionamos banheiro, varanda, deck novo e acabamento cosmético. Pé-direito alto como principal valor agregado."
+        "desc": "Compra: $62,5K · Reforma: $40K · Venda: $265K · 2,5 meses. Adicionamos banheiro, varanda, deck novo e acabamento cosmético. Pé-direito alto como principal valor agregado.",
+        "url": "https://app.companycam.com/galleries/ByhVhTYD"
       },
       {
         "title": "Mason Woods",
-        "desc": "Reforma: $48K+ · Prazo: 2,5 meses. Upgrade cosmético em casa de 3 quartos. Escopo enxuto, margem sólida. Prova de que nem todo flip precisa de reforma completa para dar lucro."
+        "desc": "Reforma: $48K+ · Prazo: 2,5 meses. Upgrade cosmético em casa de 3 quartos. Escopo enxuto, margem sólida. Prova de que nem todo flip precisa de reforma completa para dar lucro.",
+        "url": "https://app.companycam.com/galleries/qXud4d6P"
       }
     ]
   },
