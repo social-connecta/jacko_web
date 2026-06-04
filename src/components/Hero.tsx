@@ -52,7 +52,7 @@ export default function Hero({ hero }: Props) {
           </div>
 
           <div className="hero-visual">
-            <img src="/logo.jpg" alt="Jacko LLC" className="hero-logo" />
+            <img src="/logo.png" alt="Jacko LLC" className="hero-logo" />
 
             <div className="hero-card">
               <div className="hero-card-icon"><IconHome /></div>
