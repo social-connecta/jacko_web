@@ -4,7 +4,12 @@
       "PowerShell(New-Item *)",
       "Skill(run)",
       "Bash(npx tsc *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5174/)",
+      "Bash(curl *)",
+      "Bash(npm install *)",
+      "Bash(grep -n \"TESTIMONIALS\\\\s*$\\\\|============\" src/App.css)",
+      "Bash(bash /tmp/claude-1000/-home-thiago-erik-dev-jacko-web/89784d1b-e432-4528-936f-a0a29a73af0a/scratchpad/copy_projects.sh)"
     ]
   }
 }

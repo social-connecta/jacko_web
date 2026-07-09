@@ -20,7 +20,7 @@ export default function Footer({ footer }: Props) {
             <div className="footer-heading">{footer.servicesHeading}</div>
             <ul className="footer-links">
               {footer.servicesList.map((s, i) => (
-                <li key={i}><a href="#services">{s}</a></li>
+                <li key={i}><a href="/#services">{s}</a></li>
               ))}
             </ul>
           </div>

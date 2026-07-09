@@ -44,7 +44,7 @@
     "items": [
       {
         "name": "Investor Who Builds",
-        "desc": "Jakson flips houses himself. He knows purchase prices, ARVs, holding costs, and margins — not because a client told him, but because he lives it on his own deals. When he renovates your flip, he thinks about the deal the way you do.",
+        "desc": "Jakson (Jacko's owner) flips houses himself. He knows purchase prices, ARVs, holding costs, and margins, not because a client told him, but because he lives it on his own deals. When he renovates your flip, he thinks about the deal the way you do.",
         "tags": ["ARV-Focused", "Margin Protection", "Investor Mindset"]
       },
       {
@@ -59,7 +59,7 @@
       },
       {
         "name": "Richmond Market Knowledge",
-        "desc": "We know what Richmond buyers want. Ceramic in bathrooms and kitchens — yes. High-end materials that cost double for barely-above-medium quality — no. Some neighborhoods prefer tubs over standing showers. We invest here, so we know your market.",
+        "desc": "We know what Richmond buyers want. Ceramic in bathrooms and kitchens: yes. High-end materials that cost double for barely-above-medium quality: no. Some neighborhoods prefer tubs over standing showers. We invest here, so we know your market.",
         "tags": ["Church Hill", "Scott's Addition", "Southside"]
       }
     ]
@@ -70,19 +70,24 @@
     "subtitle": "Not estimates. Not projections. Actual purchase prices, renovation costs, and sale prices from our completed flips.",
     "items": [
       {
-        "title": "Williamsburg",
-        "desc": "Buy: $25K · Reno: $108K · Sale: $221K · 8 months. Full gut renovation — everything minus the shell. New construction appearance with location premium.",
-        "url": "https://app.companycam.com/galleries/Zs7yyPsU"
+        "slug": "forest-heights",
+        "title": "Forest Heights",
+        "desc": "Full renovation project in the Richmond metro. Photos and videos below."
       },
       {
+        "slug": "norfolk-ave",
         "title": "Norfolk Ave",
-        "desc": "Buy: $62.5K · Reno: $40K · Sale: $265K · 2.5 months. Added bathroom, framed porch, new deck, cosmetic upgrade. High ceilings as the key value-add.",
-        "url": "https://app.companycam.com/galleries/ByhVhTYD"
+        "desc": "Buy: $62.5K · Reno: $40K · Sale: $265K · 2.5 months. Added bathroom, framed porch, new deck, cosmetic upgrade. High ceilings as the key value-add."
       },
       {
+        "slug": "mason-woods",
         "title": "Mason Woods",
-        "desc": "Reno: $48K+ · Timeline: 2.5 months. Cosmetic upgrade on 3BR SFH. Tight scope, solid margins. Proof that not every flip needs a full gut to pencil.",
-        "url": "https://app.companycam.com/galleries/qXud4d6P"
+        "desc": "Reno: $48K+ · Timeline: 2.5 months. Cosmetic upgrade on 3BR SFH. Tight scope, solid margins. Proof that not every flip needs a full gut to pencil."
+      },
+      {
+        "slug": "parkside-ave",
+        "title": "Parkside Ave",
+        "desc": "Full renovation project in the Richmond metro. Photos and videos below."
       }
     ]
   },
@@ -102,7 +107,7 @@
         "location": "Richmond, VA · Fix & Flip Investor"
       },
       {
-        "text": "One crew for everything — that's what makes the difference. No chasing subcontractors, no delays waiting on 5 different schedules. Jacko runs a tight operation. We've used them on two projects and will keep coming back.",
+        "text": "One crew for everything: that's what makes the difference. No chasing subcontractors, no delays waiting on 5 different schedules. Jacko runs a tight operation. We've used them on two projects and will keep coming back.",
         "name": "James R.",
         "location": "Richmond Metro · Real Estate Investor"
       }

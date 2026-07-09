@@ -1,20 +1,15 @@
+import { Link } from 'react-router-dom'
 import type en from '../locales/en.json'
 
 type Props = {
   why: typeof en['why']
 }
 
-const icons = [
-  <svg key="flip1" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+const HouseIcon = () => (
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
     <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" /><polyline points="9 22 9 12 15 12 15 22" />
-  </svg>,
-  <svg key="flip2" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" /><polyline points="9 22 9 12 15 12 15 22" />
-  </svg>,
-  <svg key="flip3" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" /><polyline points="9 22 9 12 15 12 15 22" />
-  </svg>,
-]
+  </svg>
+)
 
 export default function WhyUs({ why }: Props) {
   return (
@@ -26,17 +21,15 @@ export default function WhyUs({ why }: Props) {
 
         <div className="why-grid">
           {why.items.map((item, i) => (
-            <a
+            <Link
               key={i}
-              href={item.url}
-              target="_blank"
-              rel="noopener noreferrer"
+              to={`/projects/${item.slug}`}
               className={`why-card reveal reveal-delay-${i + 1}`}
             >
-              <div className="why-icon">{icons[i]}</div>
+              <div className="why-icon"><HouseIcon /></div>
               <h3 className="why-title">{item.title}</h3>
               <p className="why-desc">{item.desc}</p>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
