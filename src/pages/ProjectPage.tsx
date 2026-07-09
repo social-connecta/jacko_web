@@ -2,6 +2,7 @@ import { Link, Navigate, useParams, useSearchParams } from 'react-router-dom'
 import en from '../locales/en.json'
 import projectMedia from '../data/projectMedia.json'
 import { useScrollReveal } from '../hooks/useScrollReveal'
+import JsonLd from '../components/JsonLd'
 
 const PHOTOS_PER_PAGE = 20
 
@@ -24,9 +25,32 @@ export default function ProjectPage() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
+  const origin = window.location.origin
+  const pageUrl = `${origin}/projects/${project.slug}`
+
+  const webPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: `${project.title} | Jacko LLC`,
+    url: pageUrl,
+    isPartOf: { '@id': `${origin}/#business` },
+  }
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: origin },
+      { '@type': 'ListItem', position: 2, name: 'Projects', item: `${origin}/#why` },
+      { '@type': 'ListItem', position: 3, name: project.title, item: pageUrl },
+    ],
+  }
+
   return (
     <section className="project-page">
       <div className="container">
+        <JsonLd data={webPageSchema} />
+        <JsonLd data={breadcrumbSchema} />
         <Link to="/#why" className="project-back">&larr; Back to projects</Link>
 
         <div className="project-header reveal">

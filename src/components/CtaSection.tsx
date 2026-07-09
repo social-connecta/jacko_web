@@ -1,4 +1,3 @@
-import { IconPhone, IconMail, IconInstagram, IconPin } from '../icons'
 import type en from '../locales/en.json'
 
 type Props = {
@@ -86,25 +85,6 @@ export default function CtaSection({ cta }: Props) {
             </button>
             <p className="estimate-form-note">{cta.form.note}</p>
           </form>
-
-          <div className="cta-contact-info">
-            <a href="tel:+18045466990" className="cta-contact-item">
-              <span className="cta-contact-icon"><IconPhone /></span>
-              {cta.callBtn}
-            </a>
-            <a href="mailto:jacko@jackollc.com" className="cta-contact-item">
-              <span className="cta-contact-icon"><IconMail /></span>
-              jacko@jackollc.com
-            </a>
-            <a href="https://www.instagram.com/jackollc" target="_blank" rel="noopener noreferrer" className="cta-contact-item">
-              <span className="cta-contact-icon"><IconInstagram /></span>
-              @jackollc
-            </a>
-            <span className="cta-contact-item">
-              <span className="cta-contact-icon"><IconPin /></span>
-              Richmond, VA 23229
-            </span>
-          </div>
         </div>
       </div>
     </section>

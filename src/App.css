@@ -869,28 +869,6 @@
   color: var(--accent-gold);
 }
 
-.cta-contact-info {
-  margin-top: 48px;
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.cta-contact-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--text-secondary);
-  font-size: 0.95rem;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.cta-contact-item:hover { color: var(--accent-warm); }
-
-.cta-contact-icon { color: var(--accent-gold); flex-shrink: 0; }
-
 /* ============================================================
    ESTIMATE FORM
 ============================================================ */
@@ -1110,7 +1088,6 @@
   .hero-stats { gap: 24px; }
   .trust-bar-inner { gap: 20px; }
   .trust-divider { display: none; }
-  .cta-contact-info { flex-direction: column; align-items: center; gap: 16px; }
   .footer-bottom { flex-direction: column; text-align: center; }
 }
 

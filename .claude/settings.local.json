@@ -9,7 +9,9 @@
       "Bash(curl *)",
       "Bash(npm install *)",
       "Bash(grep -n \"TESTIMONIALS\\\\s*$\\\\|============\" src/App.css)",
-      "Bash(bash /tmp/claude-1000/-home-thiago-erik-dev-jacko-web/89784d1b-e432-4528-936f-a0a29a73af0a/scratchpad/copy_projects.sh)"
+      "Bash(bash /tmp/claude-1000/-home-thiago-erik-dev-jacko-web/89784d1b-e432-4528-936f-a0a29a73af0a/scratchpad/copy_projects.sh)",
+      "Read(//home/thiago_erik/.claude/**)",
+      "Read(//tmp/**)"
     ]
   }
 }
