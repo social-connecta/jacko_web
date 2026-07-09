@@ -3,7 +3,8 @@
     "allow": [
       "PowerShell(New-Item *)",
       "Skill(run)",
-      "Bash(npx tsc *)"
+      "Bash(npx tsc *)",
+      "Bash(npm run *)"
     ]
   }
 }

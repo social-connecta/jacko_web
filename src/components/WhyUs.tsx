@@ -21,10 +21,7 @@ export default function WhyUs({ why }: Props) {
     <section className="why" id="why">
       <div className="container">
         <div className="why-header reveal">
-          <span className="section-label">{why.label}</span>
-          <h2 className="section-title">{why.title}</h2>
           <div className="gold-line" />
-          <p className="section-subtitle">{why.subtitle}</p>
         </div>
 
         <div className="why-grid">
