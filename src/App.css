@@ -141,36 +141,6 @@
   gap: 12px;
 }
 
-.lang-toggle {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  background: none;
-  border: 1px solid var(--border);
-  border-radius: 3px;
-  padding: 8px 14px;
-  cursor: pointer;
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 0.85rem;
-  letter-spacing: 0.18em;
-  color: var(--text-muted);
-  transition: border-color 0.3s, color 0.3s;
-  line-height: 1;
-}
-
-.lang-toggle:hover {
-  border-color: rgba(200, 146, 26, 0.4);
-}
-
-.lang-active {
-  color: var(--accent-gold);
-}
-
-.lang-sep {
-  color: var(--border);
-  font-size: 0.7rem;
-}
-
 .nav-cta {
   background: var(--accent-gold);
   color: #0d0c0a;
@@ -1113,7 +1083,7 @@
 }
 
 @media (max-width: 768px) {
-  .nav-links, .nav-cta, .lang-toggle { display: none; }
+  .nav-links, .nav-cta { display: none; }
   .gallery-grid { grid-template-columns: 1fr; }
   .gallery-item:first-child { grid-column: span 1; }
   .hero-stats { gap: 24px; }

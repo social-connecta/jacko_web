@@ -2,11 +2,9 @@ import type en from '../locales/en.json'
 
 type Props = {
   nav: typeof en['nav']
-  lang: 'en' | 'pt'
-  onToggleLang: () => void
 }
 
-export default function Navbar({ nav, lang, onToggleLang }: Props) {
+export default function Navbar({ nav }: Props) {
   return (
     <nav className="nav" id="navbar">
       <div className="container">
@@ -21,11 +19,6 @@ export default function Navbar({ nav, lang, onToggleLang }: Props) {
           </ul>
 
           <div className="nav-right">
-            <button className="lang-toggle" onClick={onToggleLang} aria-label="Toggle language">
-              <span className={lang === 'en' ? 'lang-active' : ''}>EN</span>
-              <span className="lang-sep">|</span>
-              <span className={lang === 'pt' ? 'lang-active' : ''}>PT</span>
-            </button>
             <a href="#contact" className="nav-cta">{nav.cta}</a>
           </div>
         </div>

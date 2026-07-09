@@ -1,8 +1,7 @@
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
 import './App.css'
 
 import en from './locales/en.json'
-import pt from './locales/pt.json'
 
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -15,8 +14,7 @@ import CtaSection from './components/CtaSection'
 import Footer from './components/Footer'
 
 export default function App() {
-  const [lang, setLang] = useState<'en' | 'pt'>('en')
-  const t = lang === 'en' ? en : pt
+  const t = en
 
   useEffect(() => {
     const els = document.querySelectorAll<Element>('.reveal')
@@ -33,11 +31,9 @@ export default function App() {
     return () => { observer.disconnect(); window.removeEventListener('scroll', onScroll) }
   }, [])
 
-  const toggleLang = () => setLang(l => l === 'en' ? 'pt' : 'en')
-
   return (
     <>
-      <Navbar nav={t.nav} lang={lang} onToggleLang={toggleLang} />
+      <Navbar nav={t.nav} />
       <Hero hero={t.hero} />
       <TrustBar trust={t.trust} />
       <Services services={t.services} />
