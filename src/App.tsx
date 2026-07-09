@@ -8,7 +8,6 @@ import Hero from './components/Hero'
 import TrustBar from './components/TrustBar'
 import Services from './components/Services'
 import WhyUs from './components/WhyUs'
-import Gallery from './components/Gallery'
 import Testimonials from './components/Testimonials'
 import CtaSection from './components/CtaSection'
 import Footer from './components/Footer'
@@ -38,7 +37,6 @@ export default function App() {
       <TrustBar trust={t.trust} />
       <Services services={t.services} />
       <WhyUs why={t.why} />
-      <Gallery gallery={t.gallery} />
       <Testimonials testimonials={t.testimonials} />
       <CtaSection cta={t.cta} />
       <Footer footer={t.footer} />

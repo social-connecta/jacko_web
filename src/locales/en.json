@@ -86,14 +86,6 @@
       }
     ]
   },
-  "gallery": {
-    "label": "Project Photos",
-    "title1": "Before & After.",
-    "title2": "Every Detail.",
-    "subtitle": "Real projects, real transformations. Photos from our completed flips in the Richmond metro.",
-    "viewProject": "View Project",
-    "photoLabel": "Project Photo"
-  },
   "testimonials": {
     "label": "Investor Reviews",
     "title1": "What Richmond Investors",
