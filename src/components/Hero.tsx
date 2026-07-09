@@ -37,7 +37,7 @@ export default function Hero({ hero }: Props) {
 
             <div className="hero-stats">
               <div className="hero-stat">
-                <div className="hero-stat-num">3</div>
+                <div className="hero-stat-num">10+</div>
                 <div className="hero-stat-label">{hero.stats.flips}</div>
               </div>
               <div className="hero-stat">
