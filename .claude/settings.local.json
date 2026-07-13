@@ -14,7 +14,9 @@
       "Read(//tmp/**)",
       "Bash(python3 -c ' *)",
       "Bash(python3 *)",
-      "Bash(apt-get install *)"
+      "Bash(apt-get install *)",
+      "Bash(timeout 8 bash -c \"echo | openssl s_client -connect 162.241.2.19:21 -starttls ftp 2>&1\")",
+      "Bash(timeout 5 bash -c \"cat < /dev/null | nc -v 162.241.2.19 21\")"
     ]
   }
 }
