@@ -344,7 +344,7 @@
 .hero-logo {
   width: 100%;
   max-width: 420px;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 9 / 16;
   border-radius: 8px;
   object-fit: cover;
 }

@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react'
 import { IconArrow, IconPhone, IconHome } from '../icons'
 import type en from '../locales/en.json'
 
@@ -6,6 +7,37 @@ type Props = {
 }
 
 export default function Hero({ hero }: Props) {
+  const videoRef = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    const video = videoRef.current
+    if (!video) return
+
+    video.muted = true
+    video.play().catch(() => {})
+
+    const unmute = () => {
+      video.muted = false
+      video.play().catch(() => {})
+      window.removeEventListener('click', unmute)
+      window.removeEventListener('touchstart', unmute)
+      window.removeEventListener('scroll', unmute)
+      window.removeEventListener('keydown', unmute)
+    }
+
+    window.addEventListener('click', unmute)
+    window.addEventListener('touchstart', unmute)
+    window.addEventListener('scroll', unmute)
+    window.addEventListener('keydown', unmute)
+
+    return () => {
+      window.removeEventListener('click', unmute)
+      window.removeEventListener('touchstart', unmute)
+      window.removeEventListener('scroll', unmute)
+      window.removeEventListener('keydown', unmute)
+    }
+  }, [])
+
   return (
     <section className="hero" id="hero">
       <div className="hero-bg" />
@@ -53,6 +85,7 @@ export default function Hero({ hero }: Props) {
 
           <div className="hero-visual">
             <video
+              ref={videoRef}
               src="/hero-video.mp4"
               className="hero-logo"
               autoPlay
